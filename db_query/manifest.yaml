@@ -1,5 +1,5 @@
-author: junjiem
-created_at: "2025-01-13T09:55:01.5573645+08:00"
+author: Lyy
+created_at: "2025-03-27T21:03:01.5573645+08:00"
 description:
   en_US: Database Query Utils.
   zh_Hans: 数据库查询工具。
@@ -16,7 +16,7 @@ meta:
     language: python
     version: "3.12"
   version: 0.0.4
-name: db_query
+name: db_query_plus
 plugins:
   tools:
     - provider/db_query.yaml

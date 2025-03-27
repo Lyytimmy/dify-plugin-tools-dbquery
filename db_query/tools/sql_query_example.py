@@ -9,7 +9,7 @@ from dify_plugin.entities.tool import ToolInvokeMessage
 from tools.db_util import DbUtil
 
 
-class SqlQueryTool(Tool):
+class SqlQueryTool_example(Tool):
     def _invoke(
             self, tool_parameters: dict[str, Any]
     ) -> Generator[ToolInvokeMessage, None, None]:

@@ -7,7 +7,7 @@ from uuid import UUID
 import pandas as pd
 from pandas import Timestamp
 from sqlalchemy import create_engine
-class DbUtil:
+class DbUtil_example:
 
     def __init__(self, db_type: str,
                  username: str, password: str,

@@ -1,0 +1,26 @@
+identity:
+  name: sql_query_pre_auth
+  author: junjiem
+  label:
+    en_US: SQL Query (Pre-authorization)
+    zh_Hans: SQL查询（预授权）
+description:
+  human:
+    en_US: A tool for Database SQL query (Pre-authorization).
+    zh_Hans: 数据库SQL查询工具（预授权）。
+  llm: A tool for executing SQL query. Input should be a search query.
+extra:
+  python:
+    source: tools/sql_query_example.py
+parameters:
+  - name: query_sql
+    type: string
+    required: true
+    label:
+      en_US: Query SQL
+      zh_Hans: SQL查询语句
+    human_description:
+      en_US: 'SQL query statement, for example: select * from tbl_name'
+      zh_Hans: SQL查询语句，例如：select * from tbl_name
+    llm_description: 'SQL query statement, for example: select * from tbl_name'
+    form: llm

@@ -1,0 +1,18 @@
+.DS_Store
+**/*.log
+*.iml
+target/
+
+# Editor directories and files
+.idea
+.vscode
+*/.env
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.local
+
+.gradle/
+tmp/
+build/

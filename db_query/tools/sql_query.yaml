@@ -17,7 +17,11 @@ parameters:
     type: select
     required: true
     options:
-      - value: mysql
+      - value: MongoDB
+        label:
+            en_US: MongoDB
+            zh_Hans: MongoDB
+      - value: mongodb
         label:
           en_US: MySQL
           zh_Hans: MySQL
